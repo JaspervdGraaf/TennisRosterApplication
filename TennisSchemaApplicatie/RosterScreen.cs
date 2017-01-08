@@ -36,7 +36,16 @@ namespace TennisSchemaApplicatie
 			lsbNames.MouseDown += lsbNames_MouseDown;
 			this.members = members;
             startScreen = sc;
-			
+
+			this.BackColor = Design.COLORLIGHTER;
+			this.Font = Design.FONTSMALL;
+
+			btnPrint.BackColor = Design.COLORLIGHTEST;
+			btnPrint.FlatStyle = FlatStyle.Flat;
+
+			btnSaveAsPDF.BackColor = Design.COLORLIGHTEST;
+			btnSaveAsPDF.FlatStyle = FlatStyle.Flat;
+
 			this.FieldPanel = new Panel();			
 			this.Controls.Add(FieldPanel);
 			FieldPanel.AutoScroll = true;
@@ -72,6 +81,7 @@ namespace TennisSchemaApplicatie
 				txtCourt.Size = new System.Drawing.Size(100, 20);
 				txtCourt.TabIndex = 2;
 				txtCourt.Text = i + "";
+				txtCourt.ReadOnly = true;
 				// 
 				// lsbTeamA
 				// 
@@ -166,15 +176,20 @@ namespace TennisSchemaApplicatie
 
 		private void lsbNames_MouseDown(object sender, MouseEventArgs e)
 		{
-			if (lsbNames.Items.Count == 0)
-				return;
-			int index = lsbNames.IndexFromPoint(e.X, e.Y);
-			string s = lsbNames.Items[index].ToString();
-			DragDropEffects dde1 = DoDragDrop(s, DragDropEffects.All);
-			if (dde1 == DragDropEffects.All)
+			try
 			{
-				members.RemoveAt(lsbNames.SelectedIndex);
-				DataBind();
+				if (lsbNames.Items.Count == 0)
+					return;
+				int index = lsbNames.IndexFromPoint(e.X, e.Y);
+				string s = lsbNames.Items[index].ToString();
+				DragDropEffects dde1 = DoDragDrop(s, DragDropEffects.All);
+				if (dde1 == DragDropEffects.All)
+				{
+					members.RemoveAt(lsbNames.SelectedIndex);
+					DataBind();
+				}
+			}catch (Exception ex) {
+
 			}
 		}
 
@@ -268,5 +283,10 @@ namespace TennisSchemaApplicatie
         {
 
         }
-    }
+
+		private void RosterScreen_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }

@@ -40,27 +40,27 @@
 			// lblEnterNames
 			// 
 			this.lblEnterNames.AutoSize = true;
-			this.lblEnterNames.Location = new System.Drawing.Point(57, 113);
+			this.lblEnterNames.Location = new System.Drawing.Point(160, 60);
 			this.lblEnterNames.Name = "lblEnterNames";
-			this.lblEnterNames.Size = new System.Drawing.Size(78, 13);
+			this.lblEnterNames.Size = new System.Drawing.Size(85, 13);
 			this.lblEnterNames.TabIndex = 0;
-			this.lblEnterNames.Text = "Voer namen in:";
+			this.lblEnterNames.Text = "Namen invoeren";
 			this.lblEnterNames.Click += new System.EventHandler(this.lblEnterNames_Click);
 			// 
 			// lsbNames
 			// 
 			this.lsbNames.FormattingEnabled = true;
-			this.lsbNames.Location = new System.Drawing.Point(204, 113);
+			this.lsbNames.Location = new System.Drawing.Point(163, 85);
 			this.lsbNames.Name = "lsbNames";
-			this.lsbNames.Size = new System.Drawing.Size(257, 290);
+			this.lsbNames.Size = new System.Drawing.Size(257, 238);
 			this.lsbNames.TabIndex = 1;
 			this.lsbNames.SelectedIndexChanged += new System.EventHandler(this.lsbNames_SelectedIndexChanged);
 			// 
 			// btnAdd
 			// 
-			this.btnAdd.Location = new System.Drawing.Point(60, 169);
+			this.btnAdd.Location = new System.Drawing.Point(19, 85);
 			this.btnAdd.Name = "btnAdd";
-			this.btnAdd.Size = new System.Drawing.Size(75, 23);
+			this.btnAdd.Size = new System.Drawing.Size(122, 23);
 			this.btnAdd.TabIndex = 2;
 			this.btnAdd.Text = "Toevoegen";
 			this.btnAdd.UseVisualStyleBackColor = true;
@@ -68,9 +68,9 @@
 			// 
 			// btnRemove
 			// 
-			this.btnRemove.Location = new System.Drawing.Point(60, 211);
+			this.btnRemove.Location = new System.Drawing.Point(19, 114);
 			this.btnRemove.Name = "btnRemove";
-			this.btnRemove.Size = new System.Drawing.Size(75, 23);
+			this.btnRemove.Size = new System.Drawing.Size(122, 23);
 			this.btnRemove.TabIndex = 3;
 			this.btnRemove.Text = "Verwijderen";
 			this.btnRemove.UseVisualStyleBackColor = true;
@@ -80,16 +80,16 @@
 			// 
 			this.lblTournamentName.AutoSize = true;
 			this.lblTournamentName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F);
-			this.lblTournamentName.Location = new System.Drawing.Point(84, 28);
+			this.lblTournamentName.Location = new System.Drawing.Point(27, 18);
 			this.lblTournamentName.Name = "lblTournamentName";
 			this.lblTournamentName.Size = new System.Drawing.Size(0, 37);
 			this.lblTournamentName.TabIndex = 4;
 			// 
 			// btnNext
 			// 
-			this.btnNext.Location = new System.Drawing.Point(204, 446);
+			this.btnNext.Location = new System.Drawing.Point(163, 340);
 			this.btnNext.Name = "btnNext";
-			this.btnNext.Size = new System.Drawing.Size(256, 23);
+			this.btnNext.Size = new System.Drawing.Size(118, 23);
 			this.btnNext.TabIndex = 5;
 			this.btnNext.Text = "Volgende";
 			this.btnNext.UseVisualStyleBackColor = true;
@@ -97,9 +97,9 @@
 			// 
 			// btnBack
 			// 
-			this.btnBack.Location = new System.Drawing.Point(60, 446);
+			this.btnBack.Location = new System.Drawing.Point(19, 340);
 			this.btnBack.Name = "btnBack";
-			this.btnBack.Size = new System.Drawing.Size(138, 23);
+			this.btnBack.Size = new System.Drawing.Size(122, 23);
 			this.btnBack.TabIndex = 6;
 			this.btnBack.Text = "Terug";
 			this.btnBack.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(535, 500);
+			this.ClientSize = new System.Drawing.Size(441, 374);
 			this.Controls.Add(this.btnBack);
 			this.Controls.Add(this.btnNext);
 			this.Controls.Add(this.lblTournamentName);
@@ -118,7 +118,8 @@
 			this.Controls.Add(this.lsbNames);
 			this.Controls.Add(this.lblEnterNames);
 			this.Name = "NamesScreen";
-			this.Text = "NamesScreen";
+			this.Text = "Tennisapplicatie";
+			this.Load += new System.EventHandler(this.NamesScreen_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

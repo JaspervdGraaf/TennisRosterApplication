@@ -68,7 +68,7 @@
 			this.Controls.Add(this.txtName);
 			this.Controls.Add(this.lblEnterName);
 			this.Name = "EnterNameDialog";
-			this.Text = "EnterNameDialog";
+			this.Text = "Namen invoeren";
 			this.ResumeLayout(false);
 			this.PerformLayout();
 

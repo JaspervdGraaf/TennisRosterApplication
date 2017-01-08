@@ -24,7 +24,25 @@ namespace TennisSchemaApplicatie
 			lblTournamentName.Text = sc.name;
 			namesList = new List<string>();
 
-            namesList.Add("Charlene");
+			this.BackColor = Design.COLORLIGHTER;
+			this.Font = Design.FONTNORMAL;
+			lblEnterNames.Font = Design.FONTBIGBOLD;
+			lblTournamentName.Font = Design.FONTTITLE;
+
+			btnAdd.BackColor = Design.COLORLIGHTEST;
+			btnAdd.FlatStyle = FlatStyle.Flat;
+
+			btnBack.BackColor = Design.COLORLIGHTEST;
+			btnBack.FlatStyle = FlatStyle.Flat;
+
+			btnNext.BackColor = Design.COLORLIGHTEST;
+			btnNext.FlatStyle = FlatStyle.Flat;
+
+			btnRemove.BackColor = Design.COLORLIGHTEST;
+			btnRemove.FlatStyle = FlatStyle.Flat;
+
+
+			namesList.Add("Charlene");
             namesList.Add("Jasper");
             namesList.Add("Henkie");
             namesList.Add("Petertje");
@@ -101,6 +119,11 @@ namespace TennisSchemaApplicatie
 		}
 
 		private void lblEnterNames_Click(object sender, EventArgs e)
+		{
+
+		}
+
+		private void NamesScreen_Load(object sender, EventArgs e)
 		{
 
 		}

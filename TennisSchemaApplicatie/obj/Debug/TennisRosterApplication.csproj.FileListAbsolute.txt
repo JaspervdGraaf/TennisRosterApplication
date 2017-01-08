@@ -12,3 +12,17 @@ C:\Users\Jasper\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\
 C:\Users\Jasper\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisRosterApplication.csproj.GenerateResource.Cache
 C:\Users\Jasper\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.exe
 C:\Users\Jasper\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.pdb
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\bin\Debug\TennisSchemaApplicatie.exe.config
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.exe
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.pdb
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\bin\Debug\TennisSchemaApplicatie.exe
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\bin\Debug\TennisSchemaApplicatie.pdb
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\bin\Debug\itextsharp.dll
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\bin\Debug\itextsharp.xml
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisRosterApplication.csprojResolveAssemblyReference.cache
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.EnterNameDialog.resources
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.NamesScreen.resources
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.RosterScreen.resources
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.StartScreen.resources
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisSchemaApplicatie.Properties.Resources.resources
+C:\Users\Charlene\Documents\GitHub\TennisRosterApplication\TennisSchemaApplicatie\obj\Debug\TennisRosterApplication.csproj.GenerateResource.Cache

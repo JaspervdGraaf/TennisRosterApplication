@@ -19,6 +19,11 @@ namespace TennisSchemaApplicatie
 		{
 			this.ns = ns;
 			InitializeComponent();
+
+			this.BackColor = Design.COLORLIGHTER;
+			this.Font = Design.FONTNORMAL;
+			btnAdd.BackColor = Design.COLORLIGHTEST;
+			btnAdd.FlatStyle = FlatStyle.Flat;
 		}
 
 		private void btnAdd_Click(object sender, EventArgs e)
